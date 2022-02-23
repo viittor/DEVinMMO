@@ -1,3 +1,33 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
+}
+
+@keyframes animation {
+  from {
+    background-color: white;
+  }
+  to {
+    background-color: #fdfdfd77;
+  }
+}
+
+@media (min-width: 800px) {
+  @keyframes blinkCursor {
+    from {
+      border-right-color: rgba(25, 25, 25, 0.75);
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 800px;
+    }
+  }
+
 }
