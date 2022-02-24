@@ -12,7 +12,7 @@ const Router = () => {
         <Route path="/" exact element={<Home />} />
         <Route path="/News" element={<News />} />
         <Route path="/Games" element={<Games />} />
-        <Route path="/Details" element={<Details />} />
+        <Route path="/Details/:id" element={<Details />} />
       </Routes>
     </BrowserRouter>
   );

@@ -13,3 +13,9 @@ export const getGameData = (url) => {
         return response.data
     })
 }
+
+export const getGameDetails = (url, gameId) => {
+  return instance.get(url, {params: {id: gameId}}).then(response => {
+      return response.data
+  })
+}

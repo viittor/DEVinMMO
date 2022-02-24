@@ -15,7 +15,7 @@ export const GamesContainer = styled.div`
   max-width: 1300px;
   hr {
     margin-top: 15px;
-    margin-bottom:10px;
+    margin-bottom: 10px;
   }
 `;
 
