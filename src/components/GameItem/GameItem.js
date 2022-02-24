@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { getGameData } from "../../services/Api";
+import { ItemContainer, ItemDescription, ItemPage, ItemThumb, ItemTitle } from "./GameItem.elements";
 
 const GameItem = () => {
   const [gameItem, setGameItem] = useState([]);
@@ -12,23 +13,23 @@ const GameItem = () => {
 
   return (
     <>
-      <div>
+      <ItemPage>
         {gameItem.map((item, index) => (
-          <div key={index}>
-            <h2>{item.title}</h2>
-            <img
+          <ItemContainer key={index}>
+            <ItemTitle>{item.title}</ItemTitle>
+            <ItemThumb
               src={item.thumbnail}
               loading="lazy"
               alt={`${item.title} game thumbnail`}
             />
-            <p>
+            <ItemDescription>
               {item.short_description.length > 130
                 ? item.short_description.substring(0, 127) + "..."
                 : item.short_description}
-            </p>
-          </div>
+            </ItemDescription>
+          </ItemContainer>
         ))}
-      </div>
+      </ItemPage>
       
     </>
   );
