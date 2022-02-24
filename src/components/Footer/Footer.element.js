@@ -6,6 +6,7 @@ export const FooterContainer = styled.div`
   justify-content: center;
   align-items: center;
   background: #434343;
+  flex-shrink: 0;
 
   p {
     color: white;
