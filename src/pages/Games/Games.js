@@ -6,7 +6,7 @@ const Games = () => {
 
     return (
         <>
-        <Header style="position: fixed"/>
+        <Header/>
         <GamesPage/>
         </>
     )
