@@ -13,6 +13,7 @@ export const FooterContainer = styled.div`
       "Lucida Sans", Arial, sans-serif;
     text-align: center;
     font-size: 0.9em;
+    margin: 5px;
   }
 `;
 
@@ -21,8 +22,8 @@ export const Portifolio = styled.a`
   text-decoration: none;
 
   &:hover {
-    background-color: white;
-    color: #434343;
+    background-color: #fdfdfd;
+    color: black;
     padding: 2px;
     border-radius: 5px;
   }

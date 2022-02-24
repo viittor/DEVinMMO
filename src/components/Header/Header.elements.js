@@ -8,34 +8,33 @@ export const Nav = styled.nav`
   font-size: 18px;
   justify-content: space-between;
   align-items: center;
-
   top: 0;
 `;
 
 export const NavLogo = styled(Link)`
-margin: 10px;
+  margin: 10px;
 `;
 
 export const Logo = styled.img`
-max-height: 9vh;
+  max-height: 9vh;
 `;
 
 export const NavMenu = styled.ul`
-align-items: center;
-display: flex;
-flex-wrap: wrap;
-margin-right: 15px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
 `;
 
 export const NavItem = styled(Link)`
-color: white;
-text-decoration: none;
-padding: 5px;
-margin: 5px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  margin: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 
-&:hover{
+  &:hover {
     border-bottom: 2px solid #ff0099;
-}
-
+  }
 `;

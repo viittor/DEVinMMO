@@ -1,15 +1,15 @@
 import React from "react";
-import DetailsPage from "../../components/DetailsPage";
 import Header from "../../components/Header/Header";
+import NewsPage from "../../components/NewsPage/NewsPage";
 
-const Details = () => {
+const News = () => {
 
     return (
         <>
         <Header/>
-        <DetailsPage/>
+        <NewsPage/>
         </>
     )
 };
 
-export default Details;
+export default News;

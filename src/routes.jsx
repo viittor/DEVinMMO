@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../src/pages/Home/index.js";
-import News from "../src/pages/News/index.js";
-import Games from "../src/pages/Games/index.js";
-import Details from "../src/pages/Details/index.js";
+import Home from "./pages/Home/Home.js";
+import News from "./pages/News/News.js";
+import Games from "./pages/Games/Games.js";
+import Details from "./pages/Details/Details.js";
 
 const Router = () => {
   return (

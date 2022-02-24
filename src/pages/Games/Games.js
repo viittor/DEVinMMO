@@ -1,12 +1,12 @@
 import React from "react";
-import GamesPage from "../../components/GamesPage";
+import GamesPage from "../../components/GamesPage/GamesPage";
 import Header from "../../components/Header/Header";
 
 const Games = () => {
 
     return (
         <>
-        <Header/>
+        <Header style="position: fixed"/>
         <GamesPage/>
         </>
     )
